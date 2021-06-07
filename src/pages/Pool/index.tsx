@@ -181,7 +181,7 @@ export default function Pool() {
                 </TYPE.mediumHeader>
               </HideSmall>
               <ButtonRow>
-                <Menu
+                {/* <Menu
                   menuItems={menuItems}
                   flyoutAlignment={FlyoutAlignment.LEFT}
                   ToggleUI={(props: any) => (
@@ -192,7 +192,7 @@ export default function Pool() {
                       </TYPE.body>
                     </MoreOptionsButton>
                   )}
-                />
+                /> */}
                 <ResponsiveButtonPrimary id="join-pool-button" as={Link} to="/add/ETH">
                   + <Trans>New Position</Trans>
                 </ResponsiveButtonPrimary>
