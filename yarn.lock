@@ -3261,6 +3261,17 @@
     "@typescript-eslint/types" "4.24.0"
     eslint-visitor-keys "^2.0.0"
 
+"@uniswap-fk-test/v2-sdk@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@uniswap-fk-test/v2-sdk/-/v2-sdk-3.0.1.tgz#3085dd0d48de4c777a3d0638655131a35e7ce82d"
+  integrity sha512-Ugxrv7By4EqwKwQLX+dn8YBxvFCccHdrHSMRm212j1NTMwp5/7wwTT/lmpl172DsrCGluiAfhqQsAdJMrsAlxg==
+  dependencies:
+    "@ethersproject/address" "^5.0.0"
+    "@ethersproject/solidity" "^5.0.0"
+    "@uniswap/sdk-core" "^3.0.0-alpha.3"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+
 "@uniswap/default-token-list@^2.0.0":
   version "2.0.0"
   resolved "https://registry.npmjs.org/@uniswap/default-token-list/-/default-token-list-2.0.0.tgz"
@@ -3327,17 +3338,6 @@
   dependencies:
     "@uniswap/lib" "1.1.1"
     "@uniswap/v2-core" "1.0.0"
-
-"@uniswap/v2-sdk@^3.0.0-alpha.2":
-  version "3.0.0-alpha.2"
-  resolved "https://registry.npmjs.org/@uniswap/v2-sdk/-/v2-sdk-3.0.0-alpha.2.tgz"
-  integrity sha512-LkGGZMdJueIIC3OBzgiBMV/1GdZgzTTf2qGEgBAxJUuCSFf5wZQgWNU4KOkoaBrl/FlEctAGSgGh3j3BhWKL5Q==
-  dependencies:
-    "@ethersproject/address" "^5.0.0"
-    "@ethersproject/solidity" "^5.0.0"
-    "@uniswap/sdk-core" "^3.0.0-alpha.3"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
 
 "@uniswap/v3-core@1.0.0":
   version "1.0.0"
